@@ -1,0 +1,11 @@
+storage:
+  dbPath: "/data/db"
+  journal:
+    enabled: true
+  directoryPerDB: true
+
+systemLog:
+   destination: file
+   path: "/data/log/mongod.log"
+   logRotate: rename
+
